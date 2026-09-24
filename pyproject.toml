@@ -17,6 +17,7 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = ["pytest>=8,<9"]
+firebase = ["firebase-admin>=6.5,<8"]
 
 [project.scripts]
 remote-job-agent = "remote_job_agent.cli:main"
